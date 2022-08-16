@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  content: ['./components/**/*.{jsx,js}', './pages/**/*.{jsx,js}'],
   darkMode: 'media',
   theme: {
     extend: {},
