@@ -19,7 +19,7 @@ import { getHomeItems } from '../../store/selectors';
 import Store from '../../store';
 
 const FeedCard = ({ title, type, text, author, authorAvatar, image }) => (
-  <Card className="my-4 mx-auto overflow-hidden">
+  <Card className="mb-6 last:mb-0 mx-auto overflow-hidden">
     <div className="h-32 w-full relative">
       <Image className="rounded-t-xl" objectFit="cover" src={image} alt="" layout="fill" />
     </div>
