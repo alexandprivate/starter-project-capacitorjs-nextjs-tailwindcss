@@ -9,7 +9,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "prepare": "npm run build && npm run export && npx cap sync",
+    "ios": "npx cap run ios",
+    "android": "npx cap run android"
   },
   "dependencies": {
     "@capacitor/android": "^3.0.1",

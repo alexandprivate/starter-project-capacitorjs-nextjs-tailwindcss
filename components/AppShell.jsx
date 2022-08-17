@@ -10,7 +10,7 @@ import Tabs from './pages/Tabs';
 import { FaceId } from '@capacitor/core';
 
 // check if device supports Face ID or Touch ID
-FaceId.isAvailable().then(checkResult => {
+FaceId?.isAvailable()?.then(checkResult => {
   if (checkResult.value) {
     FaceId.auth()
       .then(() => {

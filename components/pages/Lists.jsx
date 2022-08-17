@@ -9,6 +9,8 @@ import {
   IonContent,
   IonItem,
   IonLabel,
+  IonButtons,
+  IonMenuButton,
 } from '@ionic/react';
 
 const ListEntry = ({ list, ...props }) => (
@@ -34,15 +36,15 @@ const Lists = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Lists</IonTitle>
+          <IonTitle>List</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Lists</IonTitle>
           </IonToolbar>
-        </IonHeader>
+        </IonHeader> */}
         <AllLists />
       </IonContent>
     </IonPage>

@@ -24,7 +24,7 @@ const Settings = () => {
           <IonTitle>Settings</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
+      <IonContent fullscreen>
         <IonList>
           <IonItem>
             <IonLabel>Enable Notifications</IonLabel>
